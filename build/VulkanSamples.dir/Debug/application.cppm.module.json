@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "VulkanSamples.dir\\Debug\\Application.obj",
+            "outputs": [
+                "E:\\Users\\Shagu\\Projects\\VulkanSamples\\build\\VulkanSamples.dir\\Debug\\vc143.pdb",
+                "VulkanSamples.dir\\Debug\\",
+                "VulkanSamples.dir\\Debug\\Application.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "Application",
+                    "source-path": "e:\\users\\shagu\\projects\\vulkansamples\\application.cppm",
+                    "is-interface": true
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

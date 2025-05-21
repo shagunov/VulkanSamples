@@ -1,16 +1,27 @@
-cmake_minimum_required(VERSION 3.20)
-project(VulkanSamples)
+cmake_minimum_required(VERSION 3.30)
 
-set(CMAKE_CXX_STANDARD 20)
+project(VulkanSamples LANGUAGES CXX)
 
 find_package(Vulkan REQUIRED)
 
 set(SELECTED_PLATFORM "windows")
 
-file(GLOB_RECURSE SOURCES "main.cpp" "include/*.hpp" "src/*.cpp")
+set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(VulkanSamples ${SOURCES})
-target_include_directories(VulkanSamples PUBLIC ${Vulkan_INCLUDE_DIRS} "include")
+add_executable(VulkanSamples)
+
+target_sources(VulkanSamples
+    PRIVATE
+        main.cpp)
+
+target_sources(VulkanSamples
+    PRIVATE
+        FILE_SET CXX_MODULES
+        FILES
+            Application.cppm)
+
+target_include_directories(VulkanSamples PUBLIC ${Vulkan_INCLUDE_DIRS} "include" ${modules})
 
 # Compiling the shaders
 add_custom_command(

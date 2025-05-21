@@ -1,0 +1,18 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "VulkanSamples.dir\\Debug\\main.obj",
+            "outputs": [
+                "E:\\Users\\Shagu\\Projects\\VulkanSamples\\build\\VulkanSamples.dir\\Debug\\vc143.pdb",
+                "VulkanSamples.dir\\Debug\\"
+            ],
+            "requires": [
+                {
+                    "logical-name": "Application"
+                }
+            ]
+        }
+    ]
+}

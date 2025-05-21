@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CMakePredefinedTargets", "CMakePredefinedTargets", "{16C39357-626F-3443-AD92-C5E8754C6D8E}"
+EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{B6891512-2CDB-33D3-9D7E-EA72E5F5FC12}"
 	ProjectSection(ProjectDependencies) = postProject
 		{64431233-2345-39B6-8D98-B9A0DF31E035} = {64431233-2345-39B6-8D98-B9A0DF31E035}
@@ -58,6 +60,10 @@ Global
 		{76F53DA2-0E1C-33B0-8FCE-FED060BFE94E}.MinSizeRel|x64.Build.0 = MinSizeRel|x64
 		{76F53DA2-0E1C-33B0-8FCE-FED060BFE94E}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
 		{76F53DA2-0E1C-33B0-8FCE-FED060BFE94E}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B6891512-2CDB-33D3-9D7E-EA72E5F5FC12} = {16C39357-626F-3443-AD92-C5E8754C6D8E}
+		{2C585901-2C87-38B5-B7A7-7FDA699DE1B8} = {16C39357-626F-3443-AD92-C5E8754C6D8E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C76ACAC4-33FB-34ED-AF62-55D8E2D21D59}

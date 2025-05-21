@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\users\\shagu\\projects\\vulkansamples\\main.cpp",
+        "ProvidedModule": "",
+        "Includes": [],
+        "ImportedModules": [
+            {
+                "Name": "Application",
+                "BMI": "E:\\Users\\Shagu\\Projects\\VulkanSamples\\build\\VulkanSamples.dir\\Debug\\Application.cppm.ifc"
+            }
+        ],
+        "ImportedHeaderUnits": []
+    }
+}
