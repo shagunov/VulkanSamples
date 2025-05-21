@@ -1,0 +1,30 @@
+^E:\USERS\SHAGU\PROJECTS\VULKANSAMPLES\BUILD\CMAKEFILES\C5E4C6A1381409C30230109C18E593EA\VERT.SPV.RULE
+setlocal
+glslc -o E:/Users/Shagu/Projects/VulkanSamples/build/shaders/vert.spv E:/Users/Shagu/Projects/VulkanSamples/shaders/simple.vert
+if %errorlevel% neq 0 goto :cmEnd
+glslc -o E:/Users/Shagu/Projects/VulkanSamples/build/shaders/frag.spv E:/Users/Shagu/Projects/VulkanSamples/shaders/simple.frag
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\USERS\SHAGU\PROJECTS\VULKANSAMPLES\BUILD\CMAKEFILES\1326C583BCA2647F913C40D3FF37D248\SHADERS.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\USERS\SHAGU\PROJECTS\VULKANSAMPLES\CMAKELISTS.TXT
+setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -SE:/Users/Shagu/Projects/VulkanSamples -BE:/Users/Shagu/Projects/VulkanSamples/build --check-stamp-file E:/Users/Shagu/Projects/VulkanSamples/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

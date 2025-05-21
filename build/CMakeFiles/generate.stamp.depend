@@ -1,0 +1,37 @@
+# CMake generation dependency list for this directory.
+E:/Program Files/CMake/share/cmake-4.0/Modules/CMakeCInformation.cmake
+E:/Program Files/CMake/share/cmake-4.0/Modules/CMakeCXXInformation.cmake
+E:/Program Files/CMake/share/cmake-4.0/Modules/CMakeCommonLanguageInclude.cmake
+E:/Program Files/CMake/share/cmake-4.0/Modules/CMakeGenericSystem.cmake
+E:/Program Files/CMake/share/cmake-4.0/Modules/CMakeInitializeConfigs.cmake
+E:/Program Files/CMake/share/cmake-4.0/Modules/CMakeLanguageInformation.cmake
+E:/Program Files/CMake/share/cmake-4.0/Modules/CMakeRCInformation.cmake
+E:/Program Files/CMake/share/cmake-4.0/Modules/CMakeSystemSpecificInformation.cmake
+E:/Program Files/CMake/share/cmake-4.0/Modules/CMakeSystemSpecificInitialize.cmake
+E:/Program Files/CMake/share/cmake-4.0/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+E:/Program Files/CMake/share/cmake-4.0/Modules/Compiler/MSVC-C.cmake
+E:/Program Files/CMake/share/cmake-4.0/Modules/Compiler/MSVC-CXX.cmake
+E:/Program Files/CMake/share/cmake-4.0/Modules/Compiler/MSVC.cmake
+E:/Program Files/CMake/share/cmake-4.0/Modules/FindPackageHandleStandardArgs.cmake
+E:/Program Files/CMake/share/cmake-4.0/Modules/FindPackageMessage.cmake
+E:/Program Files/CMake/share/cmake-4.0/Modules/FindVulkan.cmake
+E:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeCLinkerInformation.cmake
+E:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeCXXLinkerInformation.cmake
+E:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeCommonLinkerInformation.cmake
+E:/Program Files/CMake/share/cmake-4.0/Modules/Linker/MSVC-C.cmake
+E:/Program Files/CMake/share/cmake-4.0/Modules/Linker/MSVC-CXX.cmake
+E:/Program Files/CMake/share/cmake-4.0/Modules/Linker/MSVC.cmake
+E:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Linker/Windows-MSVC-C.cmake
+E:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Linker/Windows-MSVC-CXX.cmake
+E:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Linker/Windows-MSVC.cmake
+E:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Windows-Initialize.cmake
+E:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Windows-MSVC-C.cmake
+E:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Windows-MSVC-CXX.cmake
+E:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Windows-MSVC.cmake
+E:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Windows.cmake
+E:/Program Files/CMake/share/cmake-4.0/Modules/Platform/WindowsPaths.cmake
+E:/Users/Shagu/Projects/VulkanSamples/CMakeLists.txt
+E:/Users/Shagu/Projects/VulkanSamples/build/CMakeFiles/4.0.0/CMakeCCompiler.cmake
+E:/Users/Shagu/Projects/VulkanSamples/build/CMakeFiles/4.0.0/CMakeCXXCompiler.cmake
+E:/Users/Shagu/Projects/VulkanSamples/build/CMakeFiles/4.0.0/CMakeRCCompiler.cmake
+E:/Users/Shagu/Projects/VulkanSamples/build/CMakeFiles/4.0.0/CMakeSystem.cmake

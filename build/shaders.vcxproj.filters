@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\Users\Shagu\Projects\VulkanSamples\build\CMakeFiles\c5e4c6a1381409c30230109c18e593ea\vert.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Users\Shagu\Projects\VulkanSamples\build\CMakeFiles\1326c583bca2647f913c40d3ff37d248\shaders.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Users\Shagu\Projects\VulkanSamples\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\Users\Shagu\Projects\VulkanSamples\build\CMakeFiles\shaders" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1044B3F1-ED2D-36EB-A2E2-30937218C014}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
